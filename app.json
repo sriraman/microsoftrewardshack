@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "MicrosoftRewards",
+    "name": "Bing Rewards",
     "slug": "MicrosoftRewards",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sriraman.MicrosoftRewards"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "614958aa-08f5-4e99-9410-6fa17bfc3dad"
+      }
     }
   }
 }
